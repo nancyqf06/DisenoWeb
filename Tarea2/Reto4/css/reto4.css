@@ -1,0 +1,28 @@
+i{
+    font-size: 50px;
+    color:forestgreen;
+}
+.fondo{
+    background-color:black;
+}
+
+.header-text{
+    text-align: right;
+}
+
+#color{
+
+    color:cornflowerblue;
+}
+
+#colorF{
+    color: blue;
+}
+
+#colorI{
+    color:fuchsia;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.fondoTotal{
+    background-color:linen;
+    padding: 160px 0px;
+}
+.fondo{
+    background-color:black;
+}
+
+.header-text{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
