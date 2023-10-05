@@ -1,0 +1,25 @@
+.fondo{
+    background-color:black;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  
+    background-blend-mode: multiply;
+}
+
+.bannerWeb{
+    
+    background-image: url("../imagenes/bannerReto.jpg");
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color:dimgray;
+    background-blend-mode: multiply;
+}
+
+.container-fluid{
+    padding: 160px 0px;
+}
+
+#typeTittle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
