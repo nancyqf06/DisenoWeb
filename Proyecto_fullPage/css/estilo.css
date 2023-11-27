@@ -1,0 +1,445 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam:wght@300&family=Roboto+Condensed:wght@100&family=Roboto:wght@100&family=Syne&display=swap');
+
+
+body{
+    font-family: 'Syne', sans-serif;
+}
+.vid{
+    background-size: cover;
+    background-position: center ;
+    background-color: rgba(0, 0, 0, 0.463);
+    height: 80vh;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Gradiente con opacidad */
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+    background-blend-mode: multiply;
+}
+
+.banner-facial{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed; /*efecto parallax*/
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-image: url('../imagenes/faciales1.jpg');
+    background-color: #00000046;
+    background-blend-mode: multiply;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);   
+} 
+
+.banner-integral{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed; /*efecto parallax*/
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-image: url('../imagenes/nutricion\ \(2\).jpg');
+    background-color: #00000046;
+    background-blend-mode: multiply;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);   
+} 
+
+.banner-contacto{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed; /*efecto parallax*/
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-image: url('../imagenes/f4f1d24033ae5337166612dbf9583637\ \(1\).jpg');
+    background-color: #00000046;
+    background-blend-mode: multiply;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);   
+} 
+
+.banner-corporal{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed; /*efecto parallax*/
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-image: url('../imagenes/corporales1.jpg');
+    background-color: #00000046;
+    background-blend-mode: multiply;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+   
+}
+
+.banner-nosotros{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed; /*efecto parallax*/
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-image: url('../imagenes/medicoestetico.jpg');
+    background-color: #00000046;
+    background-blend-mode: multiply;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+}
+
+.banner-skin-care{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed; /*efecto parallax*/
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-image: url('../imagenes/olena-bohovyk-e-41_WYjGPY-unsplash\ \(1\).jpg');
+    background-color: #00000046;
+    background-blend-mode: multiply;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+}
+
+
+.logo{
+    width:60%;
+}
+
+.logo1{
+    width: 28%;
+}
+
+
+.imgS1{
+    clip-path: circle();
+}
+.goto-top {  
+    position: fixed;
+    bottom: 30px;
+    right: 20px;     /*para que el boton de scrolltop se ponga del lado derecho*/
+    width: 50px;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: #BFA863; 
+    font-size: 20px;
+    
+
+}
+.icons-contact{
+    color: #BFA863;
+    font-size: 23px;
+}
+.opt-3 {
+    content: " →"; 
+    color: #0a0a0a !important;
+}
+.opt-3:hover::after{
+    content: " →"; 
+    color: #0a0a0a !important;
+}
+.form-contact{   
+    clip-path: circle();
+}
+
+/*********************  MENU NAV ******************************/
+/* Cambia el background del menu al hacerle scroll */
+.menu-white {
+    background-color: #080808e3;
+    background-blend-mode: multiply;
+    color: white !important;
+
+}
+.navbar{ 
+      letter-spacing: 4px;
+      color: #000;
+      font-size: 25px;
+      font-size:15px ;
+}
+  
+.menu-opc{   
+      font-size: 17px;
+      transition: all 1s solid;
+      color: #BFA863 !important;
+      font-weight: bold;
+}
+  
+.menu-opc:hover{
+      transition: all 1s solid;
+      text-decoration: none;
+      font-weight: bold;
+      background-color: #000;
+}
+  
+.menu-opc{
+      font-weight: bold;
+}
+  
+/* PERSONALIZACION MENU HAMBURGUESA */
+  
+.navbar-toggler{
+      background-color: #BFA863;
+      border: 3px solid #fff;
+}
+  
+.navbar-nav li a {
+      text-decoration: none;
+      font-size: 16px;
+}
+  
+.nav-item img{
+      height: 1.5625rem;
+      margin-top: 15px;
+}
+  
+.custom-toggler.navbar-toggler{
+      border-color: #fff;
+}
+  
+    /*3 lineas horizontales*/
+.custom-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}         
+.custom-toggler .navbar-toggler-icon:hover {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} 
+
+
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    border: 2px solid #f1eded;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+   
+}
+.btnes{
+    background-color:#BFA863;
+    text-decoration: none;
+}
+
+.btnes:hover{
+    text-decoration: none;
+    background-color: #000;
+  
+}
+.title-h2{
+    color:#BFA863;
+}
+.paq{
+    background-color:#000000fb;
+}
+
+.section1{
+    background-color:#000;
+}
+
+.facial-img{
+    background-image: url("../imagenes/facial-icon.png");
+    background-position: center ;
+    background-color: #0c0c0cbb;
+    background-blend-mode: multiply;
+}
+.corporal-img{
+    background-image: url("../imagenes/corporales-icon.png");
+    background-position: center ;
+    background-color: #0c0c0cbb;
+    background-blend-mode: multiply;
+}
+
+.paq-nutricion{
+    background-image: url("../imagenes/paq-corporal.jpg");
+    background-position: center ;
+    background-color: #0c0c0cbb;
+    background-blend-mode: multiply; 
+}
+
+
+
+.price-table:hover {
+    margin-top: 40px;
+    z-index: 10;    
+    box-shadow: rgba(143, 10, 10, 0.274);
+}
+
+/**************** MEDIA QUERIES ******************/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    .price-table {
+        padding-bottom: 50px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}    
+
+/*****form*****/
+input[type='text'], [type='email'], select, textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/*cambiar color a las flechas finales de cada seccion*/
+
+.accordion-button:is(.collapsed)::after {  /*.colapsed after que la flecha quede hacia abajo*/
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+
+/*estado actual*/
+
+.accordion-button {
+    color: #fff !important;
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+
+/*La pseudo-clase :last-child de CSS representa el último elemento entre un grupo de elementos hermanos.*/
+
+.accordion-button:last-child {
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*estado sobre*/
+
+.accordion-button:hover {
+    color: #000 !important;
+    background-color: rgb(8, 8, 8);
+}
+
+
+/*estado activo*/
+
+.accordion-button:focus {
+    color: #fff !important;
+    background-color: #BFA863;
+}
+
+
+.card {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.list-group-item:hover{
+    background-color: #BFA863;
+}
+
+.bg-bar{
+    background-color: #000;
+}
+
+.bg-bar1{
+    background-color: #BFA863;
+}
+
+.img-nutricion{
+    width: 80%;
+    height: 600px;
+    /*forma presentada*/
+    clip-path: ellipse(90% 70% at 0% 50%);
+    shape-outside: ellipse(90% 70% at 0% 50%);
+    shape-margin: 2em;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    
+}
+
+/*CAROUSEL*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    height: 50px;
+    /*fondo de color*/
+    background-color: #060606;
+    /*apariencia adicional*/
+    /*background-color: #0A2791;*/
+    /*border-radius: 50%;*/
+    color: #000;
+}
+
+
+.ant-desp{
+    height: 850px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+}
+
+.thumb{
+    display: block;
+    position: relative;
+    overflow: hidden; /*es para que la imagen no tape el texto al hacerle el hover con el mouse*/
+}
+
+.thumb .img-facial{
+
+        display: block;
+        position: relative;
+        overflow: hidden; /*es para que la imagen no tape el texto al hacerle el hover con el mouse*/
+}
+    
+
+.thumb:hover .img-facial{
+        transform: scale(1.2);
+        overflow: hidden;
+ }
+ 
+a {
+    text-decoration: none;
+    color:#000;
+} 
+
+a:hover{
+    text-decoration: none;
+    color:#faf8f8 !important;
+} 
+
+.btnes:hover{
+    color:#fff !important;
+}
+
